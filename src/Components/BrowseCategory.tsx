@@ -3,35 +3,35 @@ const BrowseCategory = () => {
   const categories = [
     {
       name: "Art",
-      imgSrc: "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+      imgSrc: "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
     },
     {
       name: "Collectibles",
-      imgSrc: "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+      imgSrc: "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
     },
     {
       name: "Music",
-      imgSrc: "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+      imgSrc: "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
     },
     {
       name: "Photography",
-      imgSrc: "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+      imgSrc: "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
     },
     {
       name: "Video",
-      imgSrc: "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+      imgSrc: "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
     },
     {
       name: "Utilities",
-      imgSrc: "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+      imgSrc: "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
     },
     {
       name: "Sport",
-      imgSrc: "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+      imgSrc: "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
     },
     {
       name: "Virtual Worlds",
-      imgSrc: "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+      imgSrc: "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
     },
   ];
   return (

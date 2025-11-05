@@ -29,7 +29,7 @@ const CategoryCard: React.FC<CreatorCardProps> = ({
       >
         <img
           className="w-full h-[345px] object-cover"
-          src={src || "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png"}
+          src={src || "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png"}
           alt={title}
         />
 
@@ -63,7 +63,7 @@ const CategoryCard: React.FC<CreatorCardProps> = ({
       <div className="relative bg-[#3B3B3B] rounded-[20px] w-full max-w-[450px] max-w-[450px] sm:max-w-[510px] ml-auto overflow-hidden">
         <img
           className="w-full h-[380px] object-cover rounded-[20px] blur-[5px]"
-          src={src || "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png"}
+          src={src || "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png"}
           alt="Space Walking"
         />
         <div className="text-[22px] font-semibold absolute bottom-0 w-full bg-[#3B3B3B] flex items-center px-5 py-4 h-[100px] sm:h-[109px] rounded-b-[20px]">

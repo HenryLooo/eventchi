@@ -14,16 +14,13 @@ const Avatar: React.FC<AvatarProps> = ({
   return (
     <div className="flex flex-col">
       {/* Title */}
-      <div className="text-[22px] font-semibold">
-        {imageTitle}
-      </div>
+      <div className="text-[22px] font-semibold">{imageTitle}</div>
 
       {/* User info */}
       <div className="flex items-center gap-[12px]">
         <img
           src={
-            avatarImageSrc ||
-            "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
+            avatarImageSrc || "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
           }
           alt={avatarName || "Mr. Sterious"}
           className="w-[24px] h-[24px] rounded-full object-cover"

@@ -41,7 +41,7 @@ const HeroSection = () => {
         <div className="relative bg-[#3B3B3B] rounded-[20px] w-full max-w-[400px] sm:max-w-[450px] md:max-w-[510px] mx-auto md:ml-auto md:mr-0 overflow-hidden">
           <img
             className="w-full h-auto object-cover rounded-[20px]"
-            src="../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
+            src="./8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
             alt="Space Walking"
           />
           <div className="absolute bottom-0 w-full bg-[#3B3B3B] flex items-center px-4 sm:px-5 py-3 sm:py-4 h-[90px] sm:h-[100px] md:h-[109px] rounded-b-[20px]">

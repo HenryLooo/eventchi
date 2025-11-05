@@ -6,7 +6,7 @@ const WeeklyDigest: React.FC = () => {
       <div className="bg-[#3B3B3B] rounded-[20px] flex flex-col md:flex-row overflow-hidden items-center">
         <div className="w-full md:w-[40%] flex-shrink-0 p-6 sm:p-8 md:p-[40px] lg:p-[60px]">
           <img
-            src="../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
+            src="./8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
             alt="Astronaut reading newspaper"
             className="w-full h-auto max-w-[525px] max-h-[310px] object-cover rounded-2xl mx-auto"
           />

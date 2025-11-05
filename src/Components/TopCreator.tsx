@@ -2,18 +2,18 @@ import CreatorCard from "./CreatorCard";
 
 const TopCreator = () => {
   const images = [
-    "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
-    "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
-    "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
-    "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
-    "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
-    "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
-    "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
-    "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
-    "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
-    "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
-    "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
-    "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+    "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+    "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+    "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+    "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+    "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+    "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+    "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+    "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+    "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+    "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+    "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+    "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
   ];
   return (
     <div className="px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 max-w-7xl mx-auto">

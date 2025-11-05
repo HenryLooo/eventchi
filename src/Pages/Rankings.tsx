@@ -10,7 +10,7 @@ const Rankings = () => {
       change: "+1.41%",
       nftsSold: 602,
       volume: "12.4 ETH",
-      avatar: "../public/avatar1.png",
+      avatar: "./avatar1.png",
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const Rankings = () => {
       change: "+1.41%",
       nftsSold: 602,
       volume: "12.4 ETH",
-      avatar: "../public/avatar2.png",
+      avatar: "./avatar2.png",
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ const Rankings = () => {
       change: "+1.41%",
       nftsSold: 602,
       volume: "12.4 ETH",
-      avatar: "../public/avatar3.png",
+      avatar: "./avatar3.png",
     },
     {
       id: 4,
@@ -34,7 +34,7 @@ const Rankings = () => {
       change: "+1.41%",
       nftsSold: 602,
       volume: "12.4 ETH",
-      avatar: "../public/avatar4.png",
+      avatar: "./avatar4.png",
     },
     {
       id: 5,
@@ -42,7 +42,7 @@ const Rankings = () => {
       change: "+1.41%",
       nftsSold: 602,
       volume: "12.4 ETH",
-      avatar: "../public/avatar5.png",
+      avatar: "./avatar5.png",
     },
     {
       id: 6,
@@ -50,7 +50,7 @@ const Rankings = () => {
       change: "+1.41%",
       nftsSold: 602,
       volume: "12.4 ETH",
-      avatar: "../public/avatar6.png",
+      avatar: "./avatar6.png",
     },
     {
       id: 7,
@@ -58,7 +58,7 @@ const Rankings = () => {
       change: "+1.41%",
       nftsSold: 602,
       volume: "12.4 ETH",
-      avatar: "../public/avatar7.png",
+      avatar: "./avatar7.png",
     },
     {
       id: 8,
@@ -66,7 +66,7 @@ const Rankings = () => {
       change: "+1.41%",
       nftsSold: 602,
       volume: "12.4 ETH",
-      avatar: "../public/avatar8.png",
+      avatar: "./avatar8.png",
     },
   ];
 

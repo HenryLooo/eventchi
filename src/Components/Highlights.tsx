@@ -7,7 +7,7 @@ const Highlights: React.FC = () => {
     <section className="relative w-full overflow-hidden">
       {/* Background image */}
       <img
-        src="../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
+        src="./8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
         alt="Magic Mushrooms"
         className="w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[640px] object-cover"
       />
@@ -22,7 +22,7 @@ const Highlights: React.FC = () => {
           {/* Creator */}
           <div className="flex mb-4 sm:mb-6 md:mb-[30px] bg-[#3B3B3B] rounded-[20px] w-fit px-4 sm:px-5 md:px-[20px] py-2 sm:py-3 md:py-[20px] h-auto sm:h-[44px] items-center justify-center">
             <Avatar
-              avatarImageSrc="../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
+              avatarImageSrc="./8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
               avatarName="Shroomie"
             />
           </div>

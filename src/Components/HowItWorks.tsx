@@ -4,17 +4,17 @@ const HowItWorks: React.FC = () => {
   const categories = [
     {
       title: "Setup Your Wallet",
-      imgSrc: "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+      imgSrc: "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
       desc: "Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.",
     },
     {
       title: "Create Collection",
-      imgSrc: "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+      imgSrc: "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
       desc: "Upload your work and setup your collection. Add a description, social links and floor price.",
     },
     {
       title: "Start Earning",
-      imgSrc: "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+      imgSrc: "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
       desc: "Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.",
     },
   ];

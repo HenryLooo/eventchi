@@ -28,7 +28,7 @@ const ConnectWallet: React.FC = () => {
     <div className="min-h-screen flex">
       <div className="hidden lg:flex lg:w-1/2 relative">
         <img
-          src="../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
+          src="./8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
           alt="Space scene with astronauts"
           className="w-full h-full object-cover"
         />

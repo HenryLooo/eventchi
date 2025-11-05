@@ -2,9 +2,9 @@ import ImageCard from "./ImageCard";
 import Avatar from "./Avatar";
 
 const images = [
-  "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
-  "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
-  "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+  "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+  "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
+  "./8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
 ];
 
 const GallerySection = () => {

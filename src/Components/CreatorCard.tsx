@@ -9,7 +9,7 @@ const CreatorCard: React.FC<CreatorCardProps> = ({ index }) => {
         {index}
       </div>
       <img
-        src="../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
+        src="./8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
         alt="Creator Avatar"
         className="w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] rounded-full mb-3 sm:mb-4 object-cover"
       />
