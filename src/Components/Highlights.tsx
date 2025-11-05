@@ -16,7 +16,7 @@ const Highlights: React.FC = () => {
       <div className="absolute inset-0 bg-gradient-to-t from-[#A259FF]/80 to-transparent" />
 
       {/* Content */}
-      <div className="absolute bottom-0 left-0 p-4 sm:p-6 md:p-8 flex flex-col gap-6 sm:gap-8 lg:flex-row lg:items-end lg:justify-between w-full text-white max-w-7xl mx-auto">
+      <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 md:p-8 flex flex-col gap-6 sm:gap-8 lg:flex-row lg:items-end lg:justify-between w-full text-white max-w-7xl mx-auto">
         {/* Left content */}
         <div className="lg:pl-0">
           {/* Creator */}
