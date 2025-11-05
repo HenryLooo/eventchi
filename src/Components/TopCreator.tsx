@@ -24,7 +24,7 @@ const TopCreator = () => {
         Checkout Top Rated Creators on the NFT Marketplace
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-4 justify-items-center">
-        {images.map((src, index) => (
+        {images.map((__, index) => (
           <div key={index} className="w-full flex justify-center">
             <CreatorCard index={index + 1} />
           </div>

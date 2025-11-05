@@ -7,23 +7,6 @@ const ConnectWallet: React.FC = () => {
     password: "",
     confirmPassword: "",
   });
-
-  // const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-  //   setFormData({
-  //     ...formData,
-  //     [e.target.name]: e.target.value,
-  //   });
-  // };
-
-  // const handleSubmit = () => {
-  //   if (formData.password !== formData.confirmPassword) {
-  //     alert("Passwords do not match!");
-  //     return;
-  //   }
-  //   console.log("Form submitted:", formData);
-  //   alert("Account created successfully!");
-  // };
-
   return (
     <div className="min-h-screen flex">
       <div className="hidden lg:flex lg:w-1/2 relative">
