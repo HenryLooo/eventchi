@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 interface CountdownProps {
   targetDate: string; // e.g. "2025-11-05T23:59:59"
 }
-
 const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
   const calculateTimeLeft = () => {
     const difference = +new Date(targetDate) - +new Date();
@@ -28,9 +27,9 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
     return timeLeft;
   };
 
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = React.useState(calculateTimeLeft());
 
-  useEffect(() => {
+  React.useEffect(() => {
     const timer = setInterval(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
@@ -39,18 +38,20 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
   }, [targetDate]);
 
   return (
-    <div className="bg-[#3B3B3B] rounded-[20px] p-5 text-center w-[235px] mt-8 sm:mt-0 bg-opacity-60">
-      <p className="text-[14px] text-[#B0B0B0] mb-2">Auction ends in:</p>
+    <div className="bg-[#3B3B3B] rounded-[20px] p-4 sm:p-5 text-center w-full sm:w-[200px] md:w-[235px] mt-6 sm:mt-8 lg:mt-0 bg-opacity-60">
+      <p className="text-xs sm:text-[14px] text-[#B0B0B0] mb-2">
+        Auction ends in:
+      </p>
 
-      <div className="flex justify-center gap-3 font-bold text-[38px] leading-none">
+      <div className="flex justify-center gap-2 sm:gap-3 font-bold text-2xl sm:text-3xl md:text-[38px] leading-none">
         <div>{timeLeft.hours}</div>
-        <span className="text-[20px]">:</span>
+        <span className="text-base sm:text-lg md:text-[20px]">:</span>
         <div>{timeLeft.minutes}</div>
-        <span className="text-[20px]">:</span>
+        <span className="text-base sm:text-lg md:text-[20px]">:</span>
         <div>{timeLeft.seconds}</div>
       </div>
 
-      <div className="flex justify-between text-[12px] text-[#B0B0B0] mt-2">
+      <div className="flex justify-between text-[10px] sm:text-[12px] text-[#B0B0B0] mt-2">
         <span>Hours</span>
         <span>Minutes</span>
         <span>Seconds</span>
@@ -58,5 +59,4 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
     </div>
   );
 };
-
 export default Countdown;

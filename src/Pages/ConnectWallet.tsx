@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { User, Mail, Lock } from "lucide-react";
 
 const ConnectWallet: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -17,7 +16,6 @@ const ConnectWallet: React.FC = () => {
   };
 
   const handleSubmit = () => {
-    // Handle form submission
     if (formData.password !== formData.confirmPassword) {
       alert("Passwords do not match!");
       return;
@@ -28,7 +26,6 @@ const ConnectWallet: React.FC = () => {
 
   return (
     <div className="min-h-screen flex">
-      {/* Left Side - Image */}
       <div className="hidden lg:flex lg:w-1/2 relative">
         <img
           src="../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png"
@@ -37,7 +34,6 @@ const ConnectWallet: React.FC = () => {
         />
       </div>
 
-      {/* Right Side - Form */}
       <div className="w-full lg:w-1/2 bg-[#2B2B2B] flex items-center justify-center px-8 py-12">
         <div className="w-full max-w-md">
           <h1 className="text-white text-4xl lg:text-5xl font-bold mb-4">

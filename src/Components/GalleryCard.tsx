@@ -7,13 +7,13 @@ const images = [
   "../public/8ac9e0e3bcf2d5507a81254146143702cd71f923.png",
 ];
 
-const GalleryCard = () => {
+const GallerySection = () => {
   return (
-    <div className="grid md:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-6">
       {images.map((src, index) => (
         <div key={index} className="flex flex-col items-start">
           <ImageCard src={src} />
-          <div className="grid grid-cols-3 gap-4 w-full">
+          <div className="grid grid-cols-3 gap-3 sm:gap-4 w-full">
             {images.map((nestedSrc, nestedIndex) => (
               <ImageCard key={nestedIndex} src={nestedSrc} />
             ))}
@@ -25,4 +25,4 @@ const GalleryCard = () => {
   );
 };
 
-export default GalleryCard;
+export default GallerySection;

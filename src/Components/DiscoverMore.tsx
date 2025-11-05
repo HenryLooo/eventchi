@@ -26,14 +26,16 @@ const discoverMore = [
 
 const DiscoverMore: React.FC = () => {
   return (
-    <div className="px-8 py-20 min-w-7xl max-w-7xl mx-auto">
-      <h3 className="text-[38px] font-bold text-white mb-[10px]">
+    <div className="px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 max-w-7xl mx-auto">
+      <h3 className="text-2xl sm:text-3xl md:text-[38px] font-bold text-white mb-2 sm:mb-[10px]">
         Discover More NFTs
       </h3>
-      <h1 className="text-[22px] mb-[60px]">Explore new trending NFTs</h1>
-      <div className="grid grid-cols-3 gap-4 w-fit items-center justify-center mx-auto">
+      <h1 className="text-base sm:text-lg md:text-[22px] mb-8 sm:mb-12 md:mb-[60px] text-gray-300">
+        Explore new trending NFTs
+      </h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-4">
         {discoverMore.map((item, index) => (
-          <div key={index} className="grid grid-col items-start">
+          <div key={index}>
             <CategoryCard
               title={item?.title}
               src={item?.avatarSrc}
@@ -49,4 +51,5 @@ const DiscoverMore: React.FC = () => {
     </div>
   );
 };
+
 export default DiscoverMore;
