@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 interface CountdownProps {
   targetDate: string; // e.g. "2025-11-05T23:59:59"
